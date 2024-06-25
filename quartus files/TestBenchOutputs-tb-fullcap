@@ -1,0 +1,2563 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# Loading project parking-management-system
+# Compile of parking.v was successful.
+# Compile of testbench1.v was successful.
+# Compile of clock_counter.v was successful.
+# Compile of TB_counter.v was successful.
+# Compile of testbench2.v was successful.
+# Compile of TestBench_FullCapacity.v was successful.
+# 6 compiles, 0 failed with no errors. 
+vsim -gui work.TestBench3
+# vsim -gui work.TestBench3 
+# Loading work.TestBench3
+# Loading work.parking
+# Loading work.clock_counter
+# WARNING: No extended dataflow license exists
+run
+# 08:00
+# uni parked cars :   0 - parked cars:   0 - uni vacated space : 500 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:01
+# uni parked cars :   1 - parked cars:   0 - uni vacated space : 499 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:02
+# uni parked cars :   2 - parked cars:   0 - uni vacated space : 498 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:03
+# uni parked cars :   3 - parked cars:   0 - uni vacated space : 497 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:04
+# uni parked cars :   4 - parked cars:   0 - uni vacated space : 496 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:05
+# uni parked cars :   5 - parked cars:   0 - uni vacated space : 495 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:06
+# uni parked cars :   6 - parked cars:   0 - uni vacated space : 494 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:07
+# uni parked cars :   7 - parked cars:   0 - uni vacated space : 493 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:08
+# uni parked cars :   8 - parked cars:   0 - uni vacated space : 492 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:09
+# uni parked cars :   9 - parked cars:   0 - uni vacated space : 491 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:10
+# uni parked cars :  10 - parked cars:   0 - uni vacated space : 490 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:11
+# uni parked cars :  11 - parked cars:   0 - uni vacated space : 489 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:12
+# uni parked cars :  12 - parked cars:   0 - uni vacated space : 488 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:13
+# uni parked cars :  13 - parked cars:   0 - uni vacated space : 487 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:14
+# uni parked cars :  14 - parked cars:   0 - uni vacated space : 486 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:15
+# uni parked cars :  15 - parked cars:   0 - uni vacated space : 485 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:16
+# uni parked cars :  16 - parked cars:   0 - uni vacated space : 484 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:17
+# uni parked cars :  17 - parked cars:   0 - uni vacated space : 483 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:18
+# uni parked cars :  18 - parked cars:   0 - uni vacated space : 482 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:19
+# uni parked cars :  19 - parked cars:   0 - uni vacated space : 481 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:20
+# uni parked cars :  20 - parked cars:   0 - uni vacated space : 480 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:21
+# uni parked cars :  21 - parked cars:   0 - uni vacated space : 479 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:22
+# uni parked cars :  22 - parked cars:   0 - uni vacated space : 478 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:23
+# uni parked cars :  23 - parked cars:   0 - uni vacated space : 477 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:24
+# uni parked cars :  24 - parked cars:   0 - uni vacated space : 476 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:25
+# uni parked cars :  25 - parked cars:   0 - uni vacated space : 475 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:26
+# uni parked cars :  26 - parked cars:   0 - uni vacated space : 474 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:27
+# uni parked cars :  27 - parked cars:   0 - uni vacated space : 473 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:28
+# uni parked cars :  28 - parked cars:   0 - uni vacated space : 472 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:29
+# uni parked cars :  29 - parked cars:   0 - uni vacated space : 471 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:30
+# uni parked cars :  30 - parked cars:   0 - uni vacated space : 470 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:31
+# uni parked cars :  31 - parked cars:   0 - uni vacated space : 469 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:32
+# uni parked cars :  32 - parked cars:   0 - uni vacated space : 468 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:33
+# uni parked cars :  33 - parked cars:   0 - uni vacated space : 467 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:34
+# uni parked cars :  34 - parked cars:   0 - uni vacated space : 466 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:35
+# uni parked cars :  35 - parked cars:   0 - uni vacated space : 465 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:36
+# uni parked cars :  36 - parked cars:   0 - uni vacated space : 464 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:37
+# uni parked cars :  37 - parked cars:   0 - uni vacated space : 463 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:38
+# uni parked cars :  38 - parked cars:   0 - uni vacated space : 462 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:39
+# uni parked cars :  39 - parked cars:   0 - uni vacated space : 461 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:40
+# uni parked cars :  40 - parked cars:   0 - uni vacated space : 460 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:41
+# uni parked cars :  41 - parked cars:   0 - uni vacated space : 459 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:42
+# uni parked cars :  42 - parked cars:   0 - uni vacated space : 458 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:43
+# uni parked cars :  43 - parked cars:   0 - uni vacated space : 457 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:44
+# uni parked cars :  44 - parked cars:   0 - uni vacated space : 456 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:45
+# uni parked cars :  45 - parked cars:   0 - uni vacated space : 455 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:46
+# uni parked cars :  46 - parked cars:   0 - uni vacated space : 454 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:47
+# uni parked cars :  47 - parked cars:   0 - uni vacated space : 453 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:48
+# uni parked cars :  48 - parked cars:   0 - uni vacated space : 452 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:49
+# uni parked cars :  49 - parked cars:   0 - uni vacated space : 451 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:50
+# uni parked cars :  50 - parked cars:   0 - uni vacated space : 450 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:51
+# uni parked cars :  51 - parked cars:   0 - uni vacated space : 449 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:52
+# uni parked cars :  52 - parked cars:   0 - uni vacated space : 448 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:53
+# uni parked cars :  53 - parked cars:   0 - uni vacated space : 447 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:54
+# uni parked cars :  54 - parked cars:   0 - uni vacated space : 446 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:55
+# uni parked cars :  55 - parked cars:   0 - uni vacated space : 445 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:56
+# uni parked cars :  56 - parked cars:   0 - uni vacated space : 444 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:57
+# uni parked cars :  57 - parked cars:   0 - uni vacated space : 443 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:58
+# uni parked cars :  58 - parked cars:   0 - uni vacated space : 442 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 08:59
+# uni parked cars :  59 - parked cars:   0 - uni vacated space : 441 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:00
+# uni parked cars :  60 - parked cars:   0 - uni vacated space : 440 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:01
+# uni parked cars :  61 - parked cars:   0 - uni vacated space : 439 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:02
+# uni parked cars :  62 - parked cars:   0 - uni vacated space : 438 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:03
+# uni parked cars :  63 - parked cars:   0 - uni vacated space : 437 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:04
+# uni parked cars :  64 - parked cars:   0 - uni vacated space : 436 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:05
+# uni parked cars :  65 - parked cars:   0 - uni vacated space : 435 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:06
+# uni parked cars :  66 - parked cars:   0 - uni vacated space : 434 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:07
+# uni parked cars :  67 - parked cars:   0 - uni vacated space : 433 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:08
+# uni parked cars :  68 - parked cars:   0 - uni vacated space : 432 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:09
+# uni parked cars :  69 - parked cars:   0 - uni vacated space : 431 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:10
+# uni parked cars :  70 - parked cars:   0 - uni vacated space : 430 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:11
+# uni parked cars :  71 - parked cars:   0 - uni vacated space : 429 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:12
+# uni parked cars :  72 - parked cars:   0 - uni vacated space : 428 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:13
+# uni parked cars :  73 - parked cars:   0 - uni vacated space : 427 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:14
+# uni parked cars :  74 - parked cars:   0 - uni vacated space : 426 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:15
+# uni parked cars :  75 - parked cars:   0 - uni vacated space : 425 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:16
+# uni parked cars :  76 - parked cars:   0 - uni vacated space : 424 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:17
+# uni parked cars :  77 - parked cars:   0 - uni vacated space : 423 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:18
+# uni parked cars :  78 - parked cars:   0 - uni vacated space : 422 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:19
+# uni parked cars :  79 - parked cars:   0 - uni vacated space : 421 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:20
+# uni parked cars :  80 - parked cars:   0 - uni vacated space : 420 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:21
+# uni parked cars :  81 - parked cars:   0 - uni vacated space : 419 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:22
+# uni parked cars :  82 - parked cars:   0 - uni vacated space : 418 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:23
+# uni parked cars :  83 - parked cars:   0 - uni vacated space : 417 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:24
+# uni parked cars :  84 - parked cars:   0 - uni vacated space : 416 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:25
+# uni parked cars :  85 - parked cars:   0 - uni vacated space : 415 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:26
+# uni parked cars :  86 - parked cars:   0 - uni vacated space : 414 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:27
+# uni parked cars :  87 - parked cars:   0 - uni vacated space : 413 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:28
+# uni parked cars :  88 - parked cars:   0 - uni vacated space : 412 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:29
+# uni parked cars :  89 - parked cars:   0 - uni vacated space : 411 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:30
+# uni parked cars :  90 - parked cars:   0 - uni vacated space : 410 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:31
+# uni parked cars :  91 - parked cars:   0 - uni vacated space : 409 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:32
+# uni parked cars :  92 - parked cars:   0 - uni vacated space : 408 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:33
+# uni parked cars :  93 - parked cars:   0 - uni vacated space : 407 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:34
+# uni parked cars :  94 - parked cars:   0 - uni vacated space : 406 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:35
+# uni parked cars :  95 - parked cars:   0 - uni vacated space : 405 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:36
+# uni parked cars :  96 - parked cars:   0 - uni vacated space : 404 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:37
+# uni parked cars :  97 - parked cars:   0 - uni vacated space : 403 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:38
+# uni parked cars :  98 - parked cars:   0 - uni vacated space : 402 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:39
+# uni parked cars :  99 - parked cars:   0 - uni vacated space : 401 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:40
+# uni parked cars : 100 - parked cars:   0 - uni vacated space : 400 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:41
+# uni parked cars : 101 - parked cars:   0 - uni vacated space : 399 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:42
+# uni parked cars : 102 - parked cars:   0 - uni vacated space : 398 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:43
+# uni parked cars : 103 - parked cars:   0 - uni vacated space : 397 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:44
+# uni parked cars : 104 - parked cars:   0 - uni vacated space : 396 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:45
+# uni parked cars : 105 - parked cars:   0 - uni vacated space : 395 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:46
+# uni parked cars : 106 - parked cars:   0 - uni vacated space : 394 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:47
+# uni parked cars : 107 - parked cars:   0 - uni vacated space : 393 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:48
+# uni parked cars : 108 - parked cars:   0 - uni vacated space : 392 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:49
+# uni parked cars : 109 - parked cars:   0 - uni vacated space : 391 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:50
+# uni parked cars : 110 - parked cars:   0 - uni vacated space : 390 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:51
+# uni parked cars : 111 - parked cars:   0 - uni vacated space : 389 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:52
+# uni parked cars : 112 - parked cars:   0 - uni vacated space : 388 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:53
+# uni parked cars : 113 - parked cars:   0 - uni vacated space : 387 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:54
+# uni parked cars : 114 - parked cars:   0 - uni vacated space : 386 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:55
+# uni parked cars : 115 - parked cars:   0 - uni vacated space : 385 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:56
+# uni parked cars : 116 - parked cars:   0 - uni vacated space : 384 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:57
+# uni parked cars : 117 - parked cars:   0 - uni vacated space : 383 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:58
+# uni parked cars : 118 - parked cars:   0 - uni vacated space : 382 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 09:59
+# uni parked cars : 119 - parked cars:   0 - uni vacated space : 381 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:00
+# uni parked cars : 120 - parked cars:   0 - uni vacated space : 380 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:01
+# uni parked cars : 121 - parked cars:   0 - uni vacated space : 379 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:02
+# uni parked cars : 122 - parked cars:   0 - uni vacated space : 378 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:03
+# uni parked cars : 123 - parked cars:   0 - uni vacated space : 377 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:04
+# uni parked cars : 124 - parked cars:   0 - uni vacated space : 376 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:05
+# uni parked cars : 125 - parked cars:   0 - uni vacated space : 375 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:06
+# uni parked cars : 126 - parked cars:   0 - uni vacated space : 374 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:07
+# uni parked cars : 127 - parked cars:   0 - uni vacated space : 373 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:08
+# uni parked cars : 128 - parked cars:   0 - uni vacated space : 372 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:09
+# uni parked cars : 129 - parked cars:   0 - uni vacated space : 371 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:10
+# uni parked cars : 130 - parked cars:   0 - uni vacated space : 370 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:11
+# uni parked cars : 131 - parked cars:   0 - uni vacated space : 369 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:12
+# uni parked cars : 132 - parked cars:   0 - uni vacated space : 368 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:13
+# uni parked cars : 133 - parked cars:   0 - uni vacated space : 367 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:14
+# uni parked cars : 134 - parked cars:   0 - uni vacated space : 366 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:15
+# uni parked cars : 135 - parked cars:   0 - uni vacated space : 365 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:16
+# uni parked cars : 136 - parked cars:   0 - uni vacated space : 364 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:17
+# uni parked cars : 137 - parked cars:   0 - uni vacated space : 363 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:18
+# uni parked cars : 138 - parked cars:   0 - uni vacated space : 362 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:19
+# uni parked cars : 139 - parked cars:   0 - uni vacated space : 361 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:20
+# uni parked cars : 140 - parked cars:   0 - uni vacated space : 360 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:21
+# uni parked cars : 141 - parked cars:   0 - uni vacated space : 359 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:22
+# uni parked cars : 142 - parked cars:   0 - uni vacated space : 358 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:23
+# uni parked cars : 143 - parked cars:   0 - uni vacated space : 357 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:24
+# uni parked cars : 144 - parked cars:   0 - uni vacated space : 356 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:25
+# uni parked cars : 145 - parked cars:   0 - uni vacated space : 355 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:26
+# uni parked cars : 146 - parked cars:   0 - uni vacated space : 354 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:27
+# uni parked cars : 147 - parked cars:   0 - uni vacated space : 353 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:28
+# uni parked cars : 148 - parked cars:   0 - uni vacated space : 352 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:29
+# uni parked cars : 149 - parked cars:   0 - uni vacated space : 351 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:30
+# uni parked cars : 150 - parked cars:   0 - uni vacated space : 350 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:31
+# uni parked cars : 151 - parked cars:   0 - uni vacated space : 349 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:32
+# uni parked cars : 152 - parked cars:   0 - uni vacated space : 348 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:33
+# uni parked cars : 153 - parked cars:   0 - uni vacated space : 347 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:34
+# uni parked cars : 154 - parked cars:   0 - uni vacated space : 346 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:35
+# uni parked cars : 155 - parked cars:   0 - uni vacated space : 345 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:36
+# uni parked cars : 156 - parked cars:   0 - uni vacated space : 344 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:37
+# uni parked cars : 157 - parked cars:   0 - uni vacated space : 343 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:38
+# uni parked cars : 158 - parked cars:   0 - uni vacated space : 342 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:39
+# uni parked cars : 159 - parked cars:   0 - uni vacated space : 341 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:40
+# uni parked cars : 160 - parked cars:   0 - uni vacated space : 340 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:41
+# uni parked cars : 161 - parked cars:   0 - uni vacated space : 339 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:42
+# uni parked cars : 162 - parked cars:   0 - uni vacated space : 338 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:43
+# uni parked cars : 163 - parked cars:   0 - uni vacated space : 337 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:44
+# uni parked cars : 164 - parked cars:   0 - uni vacated space : 336 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:45
+# uni parked cars : 165 - parked cars:   0 - uni vacated space : 335 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:46
+# uni parked cars : 166 - parked cars:   0 - uni vacated space : 334 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:47
+# uni parked cars : 167 - parked cars:   0 - uni vacated space : 333 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:48
+# uni parked cars : 168 - parked cars:   0 - uni vacated space : 332 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:49
+# uni parked cars : 169 - parked cars:   0 - uni vacated space : 331 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:50
+# uni parked cars : 170 - parked cars:   0 - uni vacated space : 330 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:51
+# uni parked cars : 171 - parked cars:   0 - uni vacated space : 329 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:52
+# uni parked cars : 172 - parked cars:   0 - uni vacated space : 328 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:53
+# uni parked cars : 173 - parked cars:   0 - uni vacated space : 327 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:54
+# uni parked cars : 174 - parked cars:   0 - uni vacated space : 326 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:55
+# uni parked cars : 175 - parked cars:   0 - uni vacated space : 325 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:56
+# uni parked cars : 176 - parked cars:   0 - uni vacated space : 324 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:57
+# uni parked cars : 177 - parked cars:   0 - uni vacated space : 323 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:58
+# uni parked cars : 178 - parked cars:   0 - uni vacated space : 322 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 10:59
+# uni parked cars : 179 - parked cars:   0 - uni vacated space : 321 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:00
+# uni parked cars : 180 - parked cars:   0 - uni vacated space : 320 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:01
+# uni parked cars : 181 - parked cars:   0 - uni vacated space : 319 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:02
+# uni parked cars : 182 - parked cars:   0 - uni vacated space : 318 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:03
+# uni parked cars : 183 - parked cars:   0 - uni vacated space : 317 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:04
+# uni parked cars : 184 - parked cars:   0 - uni vacated space : 316 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:05
+# uni parked cars : 185 - parked cars:   0 - uni vacated space : 315 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:06
+# uni parked cars : 186 - parked cars:   0 - uni vacated space : 314 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:07
+# uni parked cars : 187 - parked cars:   0 - uni vacated space : 313 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:08
+# uni parked cars : 188 - parked cars:   0 - uni vacated space : 312 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:09
+# uni parked cars : 189 - parked cars:   0 - uni vacated space : 311 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:10
+# uni parked cars : 190 - parked cars:   0 - uni vacated space : 310 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:11
+# uni parked cars : 191 - parked cars:   0 - uni vacated space : 309 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:12
+# uni parked cars : 192 - parked cars:   0 - uni vacated space : 308 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:13
+# uni parked cars : 193 - parked cars:   0 - uni vacated space : 307 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:14
+# uni parked cars : 194 - parked cars:   0 - uni vacated space : 306 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:15
+# uni parked cars : 195 - parked cars:   0 - uni vacated space : 305 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:16
+# uni parked cars : 196 - parked cars:   0 - uni vacated space : 304 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:17
+# uni parked cars : 197 - parked cars:   0 - uni vacated space : 303 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:18
+# uni parked cars : 198 - parked cars:   0 - uni vacated space : 302 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:19
+# uni parked cars : 199 - parked cars:   0 - uni vacated space : 301 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:20
+# uni parked cars : 200 - parked cars:   0 - uni vacated space : 300 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:21
+# uni parked cars : 201 - parked cars:   0 - uni vacated space : 299 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:22
+# uni parked cars : 202 - parked cars:   0 - uni vacated space : 298 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:23
+# uni parked cars : 203 - parked cars:   0 - uni vacated space : 297 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:24
+# uni parked cars : 204 - parked cars:   0 - uni vacated space : 296 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:25
+# uni parked cars : 205 - parked cars:   0 - uni vacated space : 295 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:26
+# uni parked cars : 206 - parked cars:   0 - uni vacated space : 294 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:27
+# uni parked cars : 207 - parked cars:   0 - uni vacated space : 293 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:28
+# uni parked cars : 208 - parked cars:   0 - uni vacated space : 292 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:29
+# uni parked cars : 209 - parked cars:   0 - uni vacated space : 291 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:30
+# uni parked cars : 210 - parked cars:   0 - uni vacated space : 290 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:31
+# uni parked cars : 211 - parked cars:   0 - uni vacated space : 289 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:32
+# uni parked cars : 212 - parked cars:   0 - uni vacated space : 288 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:33
+# uni parked cars : 213 - parked cars:   0 - uni vacated space : 287 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:34
+# uni parked cars : 214 - parked cars:   0 - uni vacated space : 286 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:35
+# uni parked cars : 215 - parked cars:   0 - uni vacated space : 285 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:36
+# uni parked cars : 216 - parked cars:   0 - uni vacated space : 284 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:37
+# uni parked cars : 217 - parked cars:   0 - uni vacated space : 283 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:38
+# uni parked cars : 218 - parked cars:   0 - uni vacated space : 282 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:39
+# uni parked cars : 219 - parked cars:   0 - uni vacated space : 281 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:40
+# uni parked cars : 220 - parked cars:   0 - uni vacated space : 280 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:41
+# uni parked cars : 221 - parked cars:   0 - uni vacated space : 279 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:42
+# uni parked cars : 222 - parked cars:   0 - uni vacated space : 278 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:43
+# uni parked cars : 223 - parked cars:   0 - uni vacated space : 277 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:44
+# uni parked cars : 224 - parked cars:   0 - uni vacated space : 276 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:45
+# uni parked cars : 225 - parked cars:   0 - uni vacated space : 275 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:46
+# uni parked cars : 226 - parked cars:   0 - uni vacated space : 274 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:47
+# uni parked cars : 227 - parked cars:   0 - uni vacated space : 273 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:48
+# uni parked cars : 228 - parked cars:   0 - uni vacated space : 272 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:49
+# uni parked cars : 229 - parked cars:   0 - uni vacated space : 271 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:50
+# uni parked cars : 230 - parked cars:   0 - uni vacated space : 270 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:51
+# uni parked cars : 231 - parked cars:   0 - uni vacated space : 269 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:52
+# uni parked cars : 232 - parked cars:   0 - uni vacated space : 268 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:53
+# uni parked cars : 233 - parked cars:   0 - uni vacated space : 267 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:54
+# uni parked cars : 234 - parked cars:   0 - uni vacated space : 266 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:55
+# uni parked cars : 235 - parked cars:   0 - uni vacated space : 265 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:56
+# uni parked cars : 236 - parked cars:   0 - uni vacated space : 264 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:57
+# uni parked cars : 237 - parked cars:   0 - uni vacated space : 263 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:58
+# uni parked cars : 238 - parked cars:   0 - uni vacated space : 262 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 11:59
+# uni parked cars : 239 - parked cars:   0 - uni vacated space : 261 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:00
+# uni parked cars : 240 - parked cars:   0 - uni vacated space : 260 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:01
+# uni parked cars : 241 - parked cars:   0 - uni vacated space : 259 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:02
+# uni parked cars : 242 - parked cars:   0 - uni vacated space : 258 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:03
+# uni parked cars : 243 - parked cars:   0 - uni vacated space : 257 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:04
+# uni parked cars : 244 - parked cars:   0 - uni vacated space : 256 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:05
+# uni parked cars : 245 - parked cars:   0 - uni vacated space : 255 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:06
+# uni parked cars : 246 - parked cars:   0 - uni vacated space : 254 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:07
+# uni parked cars : 247 - parked cars:   0 - uni vacated space : 253 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:08
+# uni parked cars : 248 - parked cars:   0 - uni vacated space : 252 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:09
+# uni parked cars : 249 - parked cars:   0 - uni vacated space : 251 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:10
+# uni parked cars : 250 - parked cars:   0 - uni vacated space : 250 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:11
+# uni parked cars : 251 - parked cars:   0 - uni vacated space : 249 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:12
+# uni parked cars : 252 - parked cars:   0 - uni vacated space : 248 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:13
+# uni parked cars : 253 - parked cars:   0 - uni vacated space : 247 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:14
+# uni parked cars : 254 - parked cars:   0 - uni vacated space : 246 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:15
+# uni parked cars : 255 - parked cars:   0 - uni vacated space : 245 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:16
+# uni parked cars : 256 - parked cars:   0 - uni vacated space : 244 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:17
+# uni parked cars : 257 - parked cars:   0 - uni vacated space : 243 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:18
+# uni parked cars : 258 - parked cars:   0 - uni vacated space : 242 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:19
+# uni parked cars : 259 - parked cars:   0 - uni vacated space : 241 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:20
+# uni parked cars : 260 - parked cars:   0 - uni vacated space : 240 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:21
+# uni parked cars : 261 - parked cars:   0 - uni vacated space : 239 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:22
+# uni parked cars : 262 - parked cars:   0 - uni vacated space : 238 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:23
+# uni parked cars : 263 - parked cars:   0 - uni vacated space : 237 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:24
+# uni parked cars : 264 - parked cars:   0 - uni vacated space : 236 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:25
+# uni parked cars : 265 - parked cars:   0 - uni vacated space : 235 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:26
+# uni parked cars : 266 - parked cars:   0 - uni vacated space : 234 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:27
+# uni parked cars : 267 - parked cars:   0 - uni vacated space : 233 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:28
+# uni parked cars : 268 - parked cars:   0 - uni vacated space : 232 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:29
+# uni parked cars : 269 - parked cars:   0 - uni vacated space : 231 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:30
+# uni parked cars : 270 - parked cars:   0 - uni vacated space : 230 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:31
+# uni parked cars : 271 - parked cars:   0 - uni vacated space : 229 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:32
+# uni parked cars : 272 - parked cars:   0 - uni vacated space : 228 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:33
+# uni parked cars : 273 - parked cars:   0 - uni vacated space : 227 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:34
+# uni parked cars : 274 - parked cars:   0 - uni vacated space : 226 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:35
+# uni parked cars : 275 - parked cars:   0 - uni vacated space : 225 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:36
+# uni parked cars : 276 - parked cars:   0 - uni vacated space : 224 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:37
+# uni parked cars : 277 - parked cars:   0 - uni vacated space : 223 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:38
+# uni parked cars : 278 - parked cars:   0 - uni vacated space : 222 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:39
+# uni parked cars : 279 - parked cars:   0 - uni vacated space : 221 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:40
+# uni parked cars : 280 - parked cars:   0 - uni vacated space : 220 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:41
+# uni parked cars : 281 - parked cars:   0 - uni vacated space : 219 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:42
+# uni parked cars : 282 - parked cars:   0 - uni vacated space : 218 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:43
+# uni parked cars : 283 - parked cars:   0 - uni vacated space : 217 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:44
+# uni parked cars : 284 - parked cars:   0 - uni vacated space : 216 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:45
+# uni parked cars : 285 - parked cars:   0 - uni vacated space : 215 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:46
+# uni parked cars : 286 - parked cars:   0 - uni vacated space : 214 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:47
+# uni parked cars : 287 - parked cars:   0 - uni vacated space : 213 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:48
+# uni parked cars : 288 - parked cars:   0 - uni vacated space : 212 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:49
+# uni parked cars : 289 - parked cars:   0 - uni vacated space : 211 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:50
+# uni parked cars : 290 - parked cars:   0 - uni vacated space : 210 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:51
+# uni parked cars : 291 - parked cars:   0 - uni vacated space : 209 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:52
+# uni parked cars : 292 - parked cars:   0 - uni vacated space : 208 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:53
+# uni parked cars : 293 - parked cars:   0 - uni vacated space : 207 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:54
+# uni parked cars : 294 - parked cars:   0 - uni vacated space : 206 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:55
+# uni parked cars : 295 - parked cars:   0 - uni vacated space : 205 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:56
+# uni parked cars : 296 - parked cars:   0 - uni vacated space : 204 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:57
+# uni parked cars : 297 - parked cars:   0 - uni vacated space : 203 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:58
+# uni parked cars : 298 - parked cars:   0 - uni vacated space : 202 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 12:59
+# uni parked cars : 299 - parked cars:   0 - uni vacated space : 201 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:00
+# uni parked cars : 300 - parked cars:   0 - uni vacated space : 200 - vacated space :  200
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:01
+# uni parked cars : 301 - parked cars:   0 - uni vacated space : 149 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:02
+# uni parked cars : 302 - parked cars:   0 - uni vacated space : 148 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:03
+# uni parked cars : 303 - parked cars:   0 - uni vacated space : 147 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:04
+# uni parked cars : 304 - parked cars:   0 - uni vacated space : 146 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:05
+# uni parked cars : 305 - parked cars:   0 - uni vacated space : 145 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:06
+# uni parked cars : 306 - parked cars:   0 - uni vacated space : 144 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:07
+# uni parked cars : 307 - parked cars:   0 - uni vacated space : 143 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:08
+# uni parked cars : 308 - parked cars:   0 - uni vacated space : 142 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:09
+# uni parked cars : 309 - parked cars:   0 - uni vacated space : 141 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:10
+# uni parked cars : 310 - parked cars:   0 - uni vacated space : 140 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:11
+# uni parked cars : 311 - parked cars:   0 - uni vacated space : 139 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:12
+# uni parked cars : 312 - parked cars:   0 - uni vacated space : 138 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:13
+# uni parked cars : 313 - parked cars:   0 - uni vacated space : 137 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:14
+# uni parked cars : 314 - parked cars:   0 - uni vacated space : 136 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:15
+# uni parked cars : 315 - parked cars:   0 - uni vacated space : 135 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:16
+# uni parked cars : 316 - parked cars:   0 - uni vacated space : 134 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:17
+# uni parked cars : 317 - parked cars:   0 - uni vacated space : 133 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:18
+# uni parked cars : 318 - parked cars:   0 - uni vacated space : 132 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:19
+# uni parked cars : 319 - parked cars:   0 - uni vacated space : 131 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:20
+# uni parked cars : 320 - parked cars:   0 - uni vacated space : 130 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:21
+# uni parked cars : 321 - parked cars:   0 - uni vacated space : 129 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:22
+# uni parked cars : 322 - parked cars:   0 - uni vacated space : 128 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:23
+# uni parked cars : 323 - parked cars:   0 - uni vacated space : 127 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:24
+# uni parked cars : 324 - parked cars:   0 - uni vacated space : 126 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:25
+# uni parked cars : 325 - parked cars:   0 - uni vacated space : 125 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:26
+# uni parked cars : 326 - parked cars:   0 - uni vacated space : 124 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:27
+# uni parked cars : 327 - parked cars:   0 - uni vacated space : 123 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:28
+# uni parked cars : 328 - parked cars:   0 - uni vacated space : 122 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:29
+# uni parked cars : 329 - parked cars:   0 - uni vacated space : 121 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:30
+# uni parked cars : 330 - parked cars:   0 - uni vacated space : 120 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:31
+# uni parked cars : 331 - parked cars:   0 - uni vacated space : 119 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:32
+# uni parked cars : 332 - parked cars:   0 - uni vacated space : 118 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:33
+# uni parked cars : 333 - parked cars:   0 - uni vacated space : 117 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:34
+# uni parked cars : 334 - parked cars:   0 - uni vacated space : 116 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:35
+# uni parked cars : 335 - parked cars:   0 - uni vacated space : 115 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:36
+# uni parked cars : 336 - parked cars:   0 - uni vacated space : 114 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:37
+# uni parked cars : 337 - parked cars:   0 - uni vacated space : 113 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:38
+# uni parked cars : 338 - parked cars:   0 - uni vacated space : 112 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:39
+# uni parked cars : 339 - parked cars:   0 - uni vacated space : 111 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:40
+# uni parked cars : 340 - parked cars:   0 - uni vacated space : 110 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:41
+# uni parked cars : 341 - parked cars:   0 - uni vacated space : 109 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:42
+# uni parked cars : 342 - parked cars:   0 - uni vacated space : 108 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:43
+# uni parked cars : 343 - parked cars:   0 - uni vacated space : 107 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:44
+# uni parked cars : 344 - parked cars:   0 - uni vacated space : 106 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:45
+# uni parked cars : 345 - parked cars:   0 - uni vacated space : 105 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:46
+# uni parked cars : 346 - parked cars:   0 - uni vacated space : 104 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:47
+# uni parked cars : 347 - parked cars:   0 - uni vacated space : 103 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:48
+# uni parked cars : 348 - parked cars:   0 - uni vacated space : 102 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:49
+# uni parked cars : 349 - parked cars:   0 - uni vacated space : 101 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:50
+# uni parked cars : 350 - parked cars:   0 - uni vacated space : 100 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:51
+# uni parked cars : 351 - parked cars:   0 - uni vacated space :  99 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:52
+# uni parked cars : 352 - parked cars:   0 - uni vacated space :  98 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:53
+# uni parked cars : 353 - parked cars:   0 - uni vacated space :  97 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:54
+# uni parked cars : 354 - parked cars:   0 - uni vacated space :  96 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:55
+# uni parked cars : 355 - parked cars:   0 - uni vacated space :  95 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:56
+# uni parked cars : 356 - parked cars:   0 - uni vacated space :  94 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:57
+# uni parked cars : 357 - parked cars:   0 - uni vacated space :  93 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:58
+# uni parked cars : 358 - parked cars:   0 - uni vacated space :  92 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 13:59
+# uni parked cars : 359 - parked cars:   0 - uni vacated space :  91 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:00
+# uni parked cars : 360 - parked cars:   0 - uni vacated space :  90 - vacated space :  250
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:01
+# uni parked cars : 361 - parked cars:   0 - uni vacated space :  39 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:02
+# uni parked cars : 362 - parked cars:   0 - uni vacated space :  38 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:03
+# uni parked cars : 363 - parked cars:   0 - uni vacated space :  37 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:04
+# uni parked cars : 364 - parked cars:   0 - uni vacated space :  36 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:05
+# uni parked cars : 364 - parked cars:   1 - uni vacated space :  36 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:06
+# uni parked cars : 364 - parked cars:   1 - uni vacated space :  36 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:07
+# uni parked cars : 364 - parked cars:   1 - uni vacated space :  36 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:08
+# uni parked cars : 364 - parked cars:   1 - uni vacated space :  36 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:09
+# uni parked cars : 364 - parked cars:   1 - uni vacated space :  36 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:10
+# uni parked cars : 364 - parked cars:   1 - uni vacated space :  36 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:11
+# uni parked cars : 364 - parked cars:   1 - uni vacated space :  36 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:12
+# uni parked cars : 364 - parked cars:   1 - uni vacated space :  36 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:13
+# uni parked cars : 365 - parked cars:   0 - uni vacated space :  35 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:14
+# uni parked cars : 365 - parked cars:   1 - uni vacated space :  35 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:15
+# uni parked cars : 365 - parked cars:   1 - uni vacated space :  35 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:16
+# uni parked cars : 366 - parked cars:   0 - uni vacated space :  34 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:17
+# uni parked cars : 367 - parked cars:   0 - uni vacated space :  33 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:18
+# uni parked cars : 368 - parked cars:   0 - uni vacated space :  32 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:19
+# uni parked cars : 368 - parked cars:   1 - uni vacated space :  32 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:20
+# uni parked cars : 369 - parked cars:   0 - uni vacated space :  31 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:21
+# uni parked cars : 370 - parked cars:   0 - uni vacated space :  30 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:22
+# uni parked cars : 370 - parked cars:   1 - uni vacated space :  30 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:23
+# uni parked cars : 371 - parked cars:   0 - uni vacated space :  29 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:24
+# uni parked cars : 372 - parked cars:   0 - uni vacated space :  28 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:25
+# uni parked cars : 372 - parked cars:   1 - uni vacated space :  28 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:26
+# uni parked cars : 373 - parked cars:   0 - uni vacated space :  27 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:27
+# uni parked cars : 373 - parked cars:   1 - uni vacated space :  27 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:28
+# uni parked cars : 374 - parked cars:   0 - uni vacated space :  26 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:29
+# uni parked cars : 375 - parked cars:   0 - uni vacated space :  25 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:30
+# uni parked cars : 375 - parked cars:   1 - uni vacated space :  25 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:31
+# uni parked cars : 375 - parked cars:   1 - uni vacated space :  25 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:32
+# uni parked cars : 375 - parked cars:   1 - uni vacated space :  25 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:33
+# uni parked cars : 376 - parked cars:   0 - uni vacated space :  24 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:34
+# uni parked cars : 377 - parked cars:   0 - uni vacated space :  23 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:35
+# uni parked cars : 378 - parked cars:   0 - uni vacated space :  22 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:36
+# uni parked cars : 379 - parked cars:   0 - uni vacated space :  21 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:37
+# uni parked cars : 379 - parked cars:   1 - uni vacated space :  21 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:38
+# uni parked cars : 379 - parked cars:   1 - uni vacated space :  21 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:39
+# uni parked cars : 380 - parked cars:   0 - uni vacated space :  20 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:40
+# uni parked cars : 380 - parked cars:   1 - uni vacated space :  20 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:41
+# uni parked cars : 381 - parked cars:   0 - uni vacated space :  19 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:42
+# uni parked cars : 381 - parked cars:   1 - uni vacated space :  19 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:43
+# uni parked cars : 382 - parked cars:   0 - uni vacated space :  18 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:44
+# uni parked cars : 383 - parked cars:   0 - uni vacated space :  17 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:45
+# uni parked cars : 384 - parked cars:   0 - uni vacated space :  16 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:46
+# uni parked cars : 385 - parked cars:   0 - uni vacated space :  15 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:47
+# uni parked cars : 386 - parked cars:   0 - uni vacated space :  14 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:48
+# uni parked cars : 386 - parked cars:   1 - uni vacated space :  14 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:49
+# uni parked cars : 387 - parked cars:   0 - uni vacated space :  13 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:50
+# uni parked cars : 388 - parked cars:   0 - uni vacated space :  12 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:51
+# uni parked cars : 388 - parked cars:   1 - uni vacated space :  12 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:52
+# uni parked cars : 388 - parked cars:   1 - uni vacated space :  12 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:53
+# uni parked cars : 389 - parked cars:   0 - uni vacated space :  11 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:54
+# uni parked cars : 390 - parked cars:   0 - uni vacated space :  10 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:55
+# uni parked cars : 390 - parked cars:   1 - uni vacated space :  10 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:56
+# uni parked cars : 390 - parked cars:   1 - uni vacated space :  10 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:57
+# uni parked cars : 391 - parked cars:   0 - uni vacated space :   9 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:58
+# uni parked cars : 391 - parked cars:   1 - uni vacated space :   9 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 14:59
+# uni parked cars : 392 - parked cars:   0 - uni vacated space :   8 - vacated space :  300
+# |uni is vacated : 1 | is vacated : 1 |
+# 15:00
+# uni parked cars : 392 - parked cars:   1 - uni vacated space :   8 - vacated space :  299
+# |uni is vacated : 1 | is vacated : 1 |
+# 15:01
+# uni parked cars : 392 - parked cars:   1 - uni vacated space :   8 - vacated space :  298
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 1 | is vacated : 1 |
+# 15:02
+# uni parked cars : 393 - parked cars:   0 - uni vacated space :   7 - vacated space :  298
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 1 | is vacated : 1 |
+# 15:03
+# uni parked cars : 394 - parked cars:   0 - uni vacated space :   6 - vacated space :  298
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 1 | is vacated : 1 |
+# 15:04
+# uni parked cars : 394 - parked cars:   1 - uni vacated space :   6 - vacated space :  297
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 1 | is vacated : 1 |
+# 15:05
+# uni parked cars : 395 - parked cars:   0 - uni vacated space :   5 - vacated space :  297
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 1 | is vacated : 1 |
+# 15:06
+# uni parked cars : 395 - parked cars:   1 - uni vacated space :   5 - vacated space :  296
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 1 | is vacated : 1 |
+# 15:07
+# uni parked cars : 395 - parked cars:   1 - uni vacated space :   5 - vacated space :  295
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 1 | is vacated : 1 |
+# 15:08
+# uni parked cars : 396 - parked cars:   0 - uni vacated space :   4 - vacated space :  295
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 1 | is vacated : 1 |
+# 15:09
+# uni parked cars : 396 - parked cars:   1 - uni vacated space :   4 - vacated space :  294
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 1 | is vacated : 1 |
+# 15:10
+# uni parked cars : 397 - parked cars:   0 - uni vacated space :   3 - vacated space :  294
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 1 | is vacated : 1 |
+# 15:11
+# uni parked cars : 398 - parked cars:   0 - uni vacated space :   2 - vacated space :  294
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 1 | is vacated : 1 |
+# 15:12
+# uni parked cars : 398 - parked cars:   1 - uni vacated space :   2 - vacated space :  293
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 1 | is vacated : 1 |
+# 15:13
+# uni parked cars : 398 - parked cars:   1 - uni vacated space :   2 - vacated space :  292
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 1 | is vacated : 1 |
+# 15:14
+# uni parked cars : 399 - parked cars:   0 - uni vacated space :   1 - vacated space :  292
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 1 | is vacated : 1 |
+# 15:15
+# uni parked cars : 399 - parked cars:   1 - uni vacated space :   1 - vacated space :  291
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 1 | is vacated : 1 |
+# 15:16
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  291
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:17
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  290
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:18
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  290
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:19
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  290
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:20
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  289
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:21
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  289
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:22
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  288
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:23
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  288
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:24
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  287
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:25
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  287
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:26
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  286
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:27
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  286
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:28
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  285
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:29
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  284
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:30
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  283
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:31
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  282
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:32
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  282
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:33
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  281
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:34
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  280
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:35
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  279
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:36
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  278
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:37
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  277
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:38
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  277
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:39
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  277
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:40
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  277
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:41
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  276
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:42
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  276
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:43
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  275
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:44
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  275
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:45
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  274
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:46
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  274
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:47
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  274
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:48
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  274
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:49
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  273
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:50
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  273
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:51
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  272
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:52
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  271
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:53
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  271
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:54
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  270
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:55
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  269
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:56
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  269
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:57
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  269
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:58
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  269
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 15:59
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  268
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:00
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  268
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:01
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  268
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:02
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  267
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:03
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  267
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:04
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  267
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:05
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  266
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:06
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  266
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:07
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  266
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:08
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  265
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:09
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  264
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:10
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  263
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:11
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  262
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:12
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  261
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:13
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  261
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:14
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  260
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:15
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  259
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:16
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  259
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:17
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  259
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:18
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  259
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:19
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  258
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:20
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  257
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:21
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  257
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:22
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  256
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:23
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  255
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:24
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  255
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:25
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  254
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:26
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  253
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:27
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  253
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:28
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  252
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:29
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  252
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:30
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  252
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:31
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  251
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:32
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  250
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:33
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  249
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:34
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  248
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:35
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  248
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:36
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  248
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:37
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  248
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:38
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  247
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:39
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  247
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:40
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  246
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:41
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  245
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:42
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  245
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:43
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  244
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:44
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  244
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:45
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  244
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:46
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  244
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:47
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  244
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:48
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  243
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:49
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  243
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:50
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  243
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:51
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  242
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:52
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  241
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:53
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  241
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:54
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  240
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:55
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  240
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:56
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  240
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:57
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  239
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:58
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  238
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 16:59
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  237
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:00
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  237
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:01
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  237
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:02
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  236
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:03
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  235
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:04
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  235
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:05
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  234
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:06
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  233
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:07
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  233
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:08
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  232
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:09
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  231
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:10
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  231
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:11
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  230
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:12
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  229
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:13
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  228
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:14
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  227
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:15
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  227
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:16
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  227
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:17
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  226
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:18
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  225
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:19
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  225
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:20
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  225
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:21
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  224
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:22
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  223
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:23
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  222
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:24
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  221
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:25
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  220
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:26
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  219
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:27
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  218
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:28
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  218
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:29
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  217
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:30
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  216
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:31
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  216
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:32
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  215
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:33
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  214
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:34
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  213
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:35
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  213
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:36
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  212
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:37
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  211
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:38
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  211
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:39
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  211
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:40
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  210
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:41
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  209
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:42
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  209
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:43
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  209
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:44
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  209
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:45
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  209
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:46
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  208
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:47
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  207
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:48
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  207
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:49
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  207
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:50
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  206
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:51
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  206
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:52
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  205
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:53
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  204
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:54
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  203
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:55
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  202
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:56
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  201
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:57
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  201
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:58
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  201
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 17:59
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  201
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:00
+# uni parked cars : 400 - parked cars:   1 - uni vacated space :   0 - vacated space :  200
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:01
+# uni parked cars : 400 - parked cars:   0 - uni vacated space :   0 - vacated space :  200
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:02
+# uni parked cars : 399 - parked cars:   0 - uni vacated space :   0 - vacated space :  200
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:03
+# uni parked cars : 398 - parked cars:   1 - uni vacated space :   0 - vacated space :  199
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:04
+# uni parked cars : 398 - parked cars:   1 - uni vacated space :   0 - vacated space :  198
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:05
+# uni parked cars : 398 - parked cars:   1 - uni vacated space :   0 - vacated space :  197
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:06
+# uni parked cars : 398 - parked cars:   1 - uni vacated space :   0 - vacated space :  196
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:07
+# uni parked cars : 397 - parked cars:   1 - uni vacated space :   0 - vacated space :  196
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:08
+# uni parked cars : 397 - parked cars:   1 - uni vacated space :   0 - vacated space :  195
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:09
+# uni parked cars : 396 - parked cars:   2 - uni vacated space :   0 - vacated space :  194
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:10
+# uni parked cars : 395 - parked cars:   3 - uni vacated space :   0 - vacated space :  193
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:11
+# uni parked cars : 394 - parked cars:   3 - uni vacated space :   0 - vacated space :  193
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:12
+# uni parked cars : 393 - parked cars:   3 - uni vacated space :   0 - vacated space :  193
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:13
+# uni parked cars : 393 - parked cars:   3 - uni vacated space :   0 - vacated space :  192
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:14
+# uni parked cars : 393 - parked cars:   2 - uni vacated space :   0 - vacated space :  192
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:15
+# uni parked cars : 392 - parked cars:   3 - uni vacated space :   0 - vacated space :  191
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:16
+# uni parked cars : 392 - parked cars:   2 - uni vacated space :   0 - vacated space :  191
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:17
+# uni parked cars : 392 - parked cars:   2 - uni vacated space :   0 - vacated space :  190
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:18
+# uni parked cars : 392 - parked cars:   2 - uni vacated space :   0 - vacated space :  189
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:19
+# uni parked cars : 392 - parked cars:   1 - uni vacated space :   0 - vacated space :  189
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:20
+# uni parked cars : 391 - parked cars:   1 - uni vacated space :   0 - vacated space :  189
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:21
+# uni parked cars : 391 - parked cars:   0 - uni vacated space :   0 - vacated space :  189
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:22
+# uni parked cars : 391 - parked cars:   0 - uni vacated space :   0 - vacated space :  189
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:23
+# uni parked cars : 391 - parked cars:   1 - uni vacated space :   0 - vacated space :  188
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:24
+# uni parked cars : 391 - parked cars:   1 - uni vacated space :   0 - vacated space :  187
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:25
+# uni parked cars : 390 - parked cars:   2 - uni vacated space :   0 - vacated space :  186
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:26
+# uni parked cars : 390 - parked cars:   2 - uni vacated space :   0 - vacated space :  185
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:27
+# uni parked cars : 389 - parked cars:   2 - uni vacated space :   0 - vacated space :  185
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:28
+# uni parked cars : 389 - parked cars:   2 - uni vacated space :   0 - vacated space :  184
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:29
+# uni parked cars : 388 - parked cars:   2 - uni vacated space :   0 - vacated space :  184
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:30
+# uni parked cars : 387 - parked cars:   2 - uni vacated space :   0 - vacated space :  184
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:31
+# uni parked cars : 386 - parked cars:   2 - uni vacated space :   0 - vacated space :  184
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:32
+# uni parked cars : 386 - parked cars:   1 - uni vacated space :   0 - vacated space :  184
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:33
+# uni parked cars : 385 - parked cars:   1 - uni vacated space :   0 - vacated space :  184
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:34
+# uni parked cars : 385 - parked cars:   0 - uni vacated space :   0 - vacated space :  184
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:35
+# uni parked cars : 385 - parked cars:   1 - uni vacated space :   0 - vacated space :  183
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# ERROR : There is no car, but the signal shows one car wants to exit!
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:36
+# uni parked cars : 385 - parked cars:   1 - uni vacated space :   0 - vacated space :  182
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:37
+# uni parked cars : 385 - parked cars:   1 - uni vacated space :   0 - vacated space :  181
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:38
+# uni parked cars : 384 - parked cars:   2 - uni vacated space :   0 - vacated space :  180
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:39
+# uni parked cars : 383 - parked cars:   3 - uni vacated space :   0 - vacated space :  179
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:40
+# uni parked cars : 383 - parked cars:   3 - uni vacated space :   0 - vacated space :  178
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:41
+# uni parked cars : 383 - parked cars:   3 - uni vacated space :   0 - vacated space :  177
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:42
+# uni parked cars : 382 - parked cars:   4 - uni vacated space :   0 - vacated space :  176
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:43
+# uni parked cars : 382 - parked cars:   3 - uni vacated space :   0 - vacated space :  176
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:44
+# uni parked cars : 381 - parked cars:   3 - uni vacated space :   0 - vacated space :  176
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:45
+# uni parked cars : 380 - parked cars:   3 - uni vacated space :   0 - vacated space :  176
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:46
+# uni parked cars : 380 - parked cars:   2 - uni vacated space :   0 - vacated space :  176
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:47
+# uni parked cars : 379 - parked cars:   2 - uni vacated space :   0 - vacated space :  176
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:48
+# uni parked cars : 379 - parked cars:   2 - uni vacated space :   0 - vacated space :  175
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:49
+# uni parked cars : 378 - parked cars:   2 - uni vacated space :   0 - vacated space :  175
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:50
+# uni parked cars : 378 - parked cars:   2 - uni vacated space :   0 - vacated space :  174
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:51
+# uni parked cars : 377 - parked cars:   2 - uni vacated space :   0 - vacated space :  174
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:52
+# uni parked cars : 376 - parked cars:   2 - uni vacated space :   0 - vacated space :  174
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:53
+# uni parked cars : 376 - parked cars:   1 - uni vacated space :   0 - vacated space :  174
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:54
+# uni parked cars : 375 - parked cars:   2 - uni vacated space :   0 - vacated space :  173
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:55
+# uni parked cars : 375 - parked cars:   2 - uni vacated space :   0 - vacated space :  172
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:56
+# uni parked cars : 374 - parked cars:   3 - uni vacated space :   0 - vacated space :  171
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:57
+# uni parked cars : 373 - parked cars:   4 - uni vacated space :   0 - vacated space :  170
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:58
+# uni parked cars : 372 - parked cars:   4 - uni vacated space :   0 - vacated space :  170
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 18:59
+# uni parked cars : 372 - parked cars:   4 - uni vacated space :   0 - vacated space :  169
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:00
+# uni parked cars : 371 - parked cars:   4 - uni vacated space :   0 - vacated space :  169
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:01
+# uni parked cars : 370 - parked cars:   5 - uni vacated space :   0 - vacated space :  168
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:02
+# uni parked cars : 369 - parked cars:   5 - uni vacated space :   0 - vacated space :  168
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:03
+# uni parked cars : 369 - parked cars:   5 - uni vacated space :   0 - vacated space :  167
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:04
+# uni parked cars : 369 - parked cars:   4 - uni vacated space :   0 - vacated space :  167
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:05
+# uni parked cars : 369 - parked cars:   4 - uni vacated space :   0 - vacated space :  166
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:06
+# uni parked cars : 368 - parked cars:   4 - uni vacated space :   0 - vacated space :  166
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:07
+# uni parked cars : 367 - parked cars:   5 - uni vacated space :   0 - vacated space :  165
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:08
+# uni parked cars : 367 - parked cars:   4 - uni vacated space :   0 - vacated space :  165
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:09
+# uni parked cars : 366 - parked cars:   4 - uni vacated space :   0 - vacated space :  165
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:10
+# uni parked cars : 366 - parked cars:   3 - uni vacated space :   0 - vacated space :  165
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:11
+# uni parked cars : 366 - parked cars:   3 - uni vacated space :   0 - vacated space :  164
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:12
+# uni parked cars : 366 - parked cars:   2 - uni vacated space :   0 - vacated space :  164
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:13
+# uni parked cars : 366 - parked cars:   2 - uni vacated space :   0 - vacated space :  163
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:14
+# uni parked cars : 365 - parked cars:   3 - uni vacated space :   0 - vacated space :  162
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:15
+# uni parked cars : 365 - parked cars:   3 - uni vacated space :   0 - vacated space :  161
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:16
+# uni parked cars : 364 - parked cars:   4 - uni vacated space :   0 - vacated space :  160
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:17
+# uni parked cars : 364 - parked cars:   4 - uni vacated space :   0 - vacated space :  159
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:18
+# uni parked cars : 363 - parked cars:   5 - uni vacated space :   0 - vacated space :  158
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:19
+# uni parked cars : 363 - parked cars:   5 - uni vacated space :   0 - vacated space :  157
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:20
+# uni parked cars : 363 - parked cars:   5 - uni vacated space :   0 - vacated space :  156
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:21
+# uni parked cars : 363 - parked cars:   5 - uni vacated space :   0 - vacated space :  155
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:22
+# uni parked cars : 363 - parked cars:   5 - uni vacated space :   0 - vacated space :  154
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:23
+# uni parked cars : 363 - parked cars:   5 - uni vacated space :   0 - vacated space :  153
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:24
+# uni parked cars : 363 - parked cars:   5 - uni vacated space :   0 - vacated space :  152
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:25
+# uni parked cars : 363 - parked cars:   4 - uni vacated space :   0 - vacated space :  152
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:26
+# uni parked cars : 362 - parked cars:   4 - uni vacated space :   0 - vacated space :  152
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:27
+# uni parked cars : 362 - parked cars:   4 - uni vacated space :   0 - vacated space :  151
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:28
+# uni parked cars : 361 - parked cars:   5 - uni vacated space :   0 - vacated space :  150
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:29
+# uni parked cars : 361 - parked cars:   4 - uni vacated space :   0 - vacated space :  150
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:30
+# uni parked cars : 360 - parked cars:   4 - uni vacated space :   0 - vacated space :  150
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:31
+# uni parked cars : 360 - parked cars:   4 - uni vacated space :   0 - vacated space :  149
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:32
+# uni parked cars : 359 - parked cars:   5 - uni vacated space :   0 - vacated space :  148
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:33
+# uni parked cars : 358 - parked cars:   6 - uni vacated space :   0 - vacated space :  147
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:34
+# uni parked cars : 358 - parked cars:   6 - uni vacated space :   0 - vacated space :  146
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:35
+# uni parked cars : 358 - parked cars:   6 - uni vacated space :   0 - vacated space :  145
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:36
+# uni parked cars : 358 - parked cars:   5 - uni vacated space :   0 - vacated space :  145
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:37
+# uni parked cars : 357 - parked cars:   6 - uni vacated space :   0 - vacated space :  144
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:38
+# uni parked cars : 357 - parked cars:   6 - uni vacated space :   0 - vacated space :  143
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:39
+# uni parked cars : 356 - parked cars:   6 - uni vacated space :   0 - vacated space :  143
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:40
+# uni parked cars : 355 - parked cars:   7 - uni vacated space :   0 - vacated space :  142
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:41
+# uni parked cars : 355 - parked cars:   6 - uni vacated space :   0 - vacated space :  142
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:42
+# uni parked cars : 355 - parked cars:   5 - uni vacated space :   0 - vacated space :  142
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:43
+# uni parked cars : 354 - parked cars:   6 - uni vacated space :   0 - vacated space :  141
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:44
+# uni parked cars : 354 - parked cars:   6 - uni vacated space :   0 - vacated space :  140
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:45
+# uni parked cars : 353 - parked cars:   7 - uni vacated space :   0 - vacated space :  139
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:46
+# uni parked cars : 353 - parked cars:   7 - uni vacated space :   0 - vacated space :  138
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:47
+# uni parked cars : 352 - parked cars:   7 - uni vacated space :   0 - vacated space :  138
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:48
+# uni parked cars : 351 - parked cars:   7 - uni vacated space :   0 - vacated space :  138
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:49
+# uni parked cars : 350 - parked cars:   8 - uni vacated space :   0 - vacated space :  137
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:50
+# uni parked cars : 349 - parked cars:   9 - uni vacated space :   0 - vacated space :  136
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:51
+# uni parked cars : 348 - parked cars:   9 - uni vacated space :   0 - vacated space :  136
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:52
+# uni parked cars : 347 - parked cars:   9 - uni vacated space :   0 - vacated space :  136
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:53
+# uni parked cars : 346 - parked cars:   9 - uni vacated space :   0 - vacated space :  136
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:54
+# uni parked cars : 346 - parked cars:   8 - uni vacated space :   0 - vacated space :  136
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:55
+# uni parked cars : 345 - parked cars:   8 - uni vacated space :   0 - vacated space :  136
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:56
+# uni parked cars : 345 - parked cars:   8 - uni vacated space :   0 - vacated space :  135
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:57
+# uni parked cars : 344 - parked cars:   8 - uni vacated space :   0 - vacated space :  135
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:58
+# uni parked cars : 344 - parked cars:   8 - uni vacated space :   0 - vacated space :  134
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 19:59
+# uni parked cars : 343 - parked cars:   8 - uni vacated space :   0 - vacated space :  134
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |
+# 20:00
+# uni parked cars : 342 - parked cars:   8 - uni vacated space :   0 - vacated space :  134
+# ERROR : The new capacity for university cars is less than the cars which are already parked
+# |uni is vacated : 0 | is vacated : 1 |

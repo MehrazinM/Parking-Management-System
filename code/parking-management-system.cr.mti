@@ -1,0 +1,50 @@
+C:/Users/mehra/Desktop/DSD-Q8-Parking/parking_synthesisable.v {1 {vlog -work work C:/Users/mehra/Desktop/DSD-Q8-Parking/parking_synthesisable.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module parking_s
+
+Top level modules:
+	parking_s
+
+} {} {}} C:/Users/mehra/Desktop/DSD-Q8-Parking/TB_counter.v {1 {vlog -work work C:/Users/mehra/Desktop/DSD-Q8-Parking/TB_counter.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module tb_counter
+
+Top level modules:
+	tb_counter
+
+} {} {}} C:/Users/mehra/Desktop/DSD-Q8-Parking/testbench1.v {1 {vlog -work work C:/Users/mehra/Desktop/DSD-Q8-Parking/testbench1.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module TestBench1
+
+Top level modules:
+	TestBench1
+
+} {} {}} C:/Users/mehra/Desktop/DSD-Q8-Parking/testbench2.v {1 {vlog -work work C:/Users/mehra/Desktop/DSD-Q8-Parking/testbench2.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module TestBench2
+
+Top level modules:
+	TestBench2
+
+} {} {}} C:/Users/mehra/Desktop/DSD-Q8-Parking/clock_counter.v {1 {vlog -work work C:/Users/mehra/Desktop/DSD-Q8-Parking/clock_counter.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module clock_counter
+
+Top level modules:
+	clock_counter
+
+} {} {}} C:/Users/mehra/Desktop/DSD-Q8-Parking/TestBench_FullCapacity.v {1 {vlog -work work C:/Users/mehra/Desktop/DSD-Q8-Parking/TestBench_FullCapacity.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module TestBench3
+
+Top level modules:
+	TestBench3
+
+} {} {}} C:/Users/mehra/Desktop/DSD-Q8-Parking/parking.v {1 {vlog -work work C:/Users/mehra/Desktop/DSD-Q8-Parking/parking.v
+Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+-- Compiling module parking
+
+Top level modules:
+	parking
+
+} {} {}}

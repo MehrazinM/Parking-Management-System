@@ -1,0 +1,141 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\altera\13.1
+vclock_counter
+Z1 !s100 `n9c]5fRRQ66kM95lmA5^2
+Z2 I8:ejDBbV1E^];8h33DN^G0
+Z3 VJb6<BoU7YB?603:FzXg2<3
+Z4 dC:\Users\mehra\Desktop\DSD-Q8-Parking
+Z5 w1719312331
+Z6 8C:/Users/mehra/Desktop/DSD-Q8-Parking/clock_counter.v
+Z7 FC:/Users/mehra/Desktop/DSD-Q8-Parking/clock_counter.v
+L0 1
+Z8 OV;L;10.1d;51
+r1
+31
+Z9 !s90 -reportprogress|300|-work|work|C:/Users/mehra/Desktop/DSD-Q8-Parking/clock_counter.v|
+Z10 o-work work -O0
+Z11 !s108 1719324662.837000
+Z12 !s107 C:/Users/mehra/Desktop/DSD-Q8-Parking/clock_counter.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vparking
+Z13 !s100 Pc4]En^z^[93YTR?UTS430
+Z14 I77bYC^52BHgAZ7jm^2lVi2
+Z15 VidSd44zeXDh5mzb19jGh70
+R4
+Z16 w1719323615
+Z17 8C:/Users/mehra/Desktop/DSD-Q8-Parking/parking.v
+Z18 FC:/Users/mehra/Desktop/DSD-Q8-Parking/parking.v
+L0 1
+R8
+r1
+31
+Z19 !s90 -reportprogress|300|-work|work|C:/Users/mehra/Desktop/DSD-Q8-Parking/parking.v|
+R10
+Z20 !s108 1719324662.742000
+Z21 !s107 C:/Users/mehra/Desktop/DSD-Q8-Parking/parking.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vparking_s
+!i10b 1
+Z22 !s100 @QiPe0C22Fi@M4CmF>2KL0
+Z23 IVMCd7H^kL:HPYbUiRla>30
+Z24 VUNT`jjKWLc[TdoXih`D3b3
+R4
+Z25 w1719319308
+Z26 8C:/Users/mehra/Desktop/DSD-Q8-Parking/parking_synthesisable.v
+Z27 FC:/Users/mehra/Desktop/DSD-Q8-Parking/parking_synthesisable.v
+L0 1
+R8
+r1
+!s85 0
+31
+!s108 1719324663.012000
+!s107 C:/Users/mehra/Desktop/DSD-Q8-Parking/parking_synthesisable.v|
+Z28 !s90 -reportprogress|300|-work|work|C:/Users/mehra/Desktop/DSD-Q8-Parking/parking_synthesisable.v|
+!s101 -O0
+R10
+vtb_counter
+Z29 !s100 Xf`MRO^jmz2kfS@P<a9L23
+Z30 I2MMLX_22E@D3J9faWNSjb1
+Z31 VPe>hc8P2Zj0nd^A9H2M030
+R4
+Z32 w1719323616
+Z33 8C:/Users/mehra/Desktop/DSD-Q8-Parking/TB_counter.v
+Z34 FC:/Users/mehra/Desktop/DSD-Q8-Parking/TB_counter.v
+L0 1
+R8
+r1
+31
+Z35 !s90 -reportprogress|300|-work|work|C:/Users/mehra/Desktop/DSD-Q8-Parking/TB_counter.v|
+R10
+Z36 !s108 1719324662.885000
+Z37 !s107 C:/Users/mehra/Desktop/DSD-Q8-Parking/TB_counter.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vTestBench1
+Z38 !s100 9U?TPo_mYEHYlFQSXmZP?1
+Z39 IUMcD@7<71mm]DCb[[PJnU3
+Z40 V1OCa=dl@3;mS_0jH6YHWT2
+R4
+Z41 w1719323620
+Z42 8C:/Users/mehra/Desktop/DSD-Q8-Parking/testbench1.v
+Z43 FC:/Users/mehra/Desktop/DSD-Q8-Parking/testbench1.v
+L0 1
+R8
+r1
+31
+Z44 !s90 -reportprogress|300|-work|work|C:/Users/mehra/Desktop/DSD-Q8-Parking/testbench1.v|
+R10
+Z45 n@test@bench1
+Z46 !s108 1719324662.790000
+Z47 !s107 C:/Users/mehra/Desktop/DSD-Q8-Parking/testbench1.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vTestBench2
+Z48 !s100 Hf@kmj_^Jcn0bW@e@:GIk3
+Z49 IRGOFeTJOISNOVYKe2DJXL1
+Z50 V9ahhoE1Nfj5gSG:kN`mg_1
+R4
+Z51 w1719323621
+Z52 8C:/Users/mehra/Desktop/DSD-Q8-Parking/testbench2.v
+Z53 FC:/Users/mehra/Desktop/DSD-Q8-Parking/testbench2.v
+L0 2
+R8
+r1
+31
+Z54 !s90 -reportprogress|300|-work|work|C:/Users/mehra/Desktop/DSD-Q8-Parking/testbench2.v|
+R10
+Z55 n@test@bench2
+Z56 !s108 1719324662.932000
+Z57 !s107 C:/Users/mehra/Desktop/DSD-Q8-Parking/testbench2.v|
+!i10b 1
+!s85 0
+!s101 -O0
+vTestBench3
+Z58 !s100 o0[cGRW<WFMJ;EmJgNXic0
+Z59 IA=`PON]LJj;1koYb>^a1A2
+Z60 VWXFhJT<]WcRb=@0Z>^`UQ2
+R4
+Z61 w1719324016
+Z62 8C:/Users/mehra/Desktop/DSD-Q8-Parking/TestBench_FullCapacity.v
+Z63 FC:/Users/mehra/Desktop/DSD-Q8-Parking/TestBench_FullCapacity.v
+L0 3
+R8
+r1
+31
+Z64 !s90 -reportprogress|300|-work|work|C:/Users/mehra/Desktop/DSD-Q8-Parking/TestBench_FullCapacity.v|
+R10
+Z65 n@test@bench3
+!i10b 1
+!s85 0
+Z66 !s108 1719324662.980000
+Z67 !s107 C:/Users/mehra/Desktop/DSD-Q8-Parking/TestBench_FullCapacity.v|
+!s101 -O0

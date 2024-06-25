@@ -1,0 +1,562 @@
+Analysis & Synthesis report for Synthesis-parking
+Tue Jun 25 14:25:29 2024
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Analysis & Synthesis Summary
+  3. Analysis & Synthesis Settings
+  4. Parallel Compilation
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. Analysis & Synthesis DSP Block Usage Summary
+  9. User-Specified and Inferred Latches
+ 10. General Register Statistics
+ 11. Multiplexer Restructuring Statistics (Restructuring Performed)
+ 12. Parameter Settings for User Entity Instance: Top-level Entity: |parking
+ 13. Elapsed Time Per Partition
+ 14. Analysis & Synthesis Messages
+ 15. Analysis & Synthesis Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                 ;
++---------------------------------+--------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Tue Jun 25 14:25:29 2024      ;
+; Quartus II 64-Bit Version       ; 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
+; Revision Name                   ; Synthesis-parking                          ;
+; Top-level Entity Name           ; parking                                    ;
+; Family                          ; Cyclone V                                  ;
+; Logic utilization (in ALMs)     ; N/A                                        ;
+; Total registers                 ; 38                                         ;
+; Total pins                      ; 72                                         ;
+; Total virtual pins              ; 0                                          ;
+; Total block memory bits         ; 0                                          ;
+; Total DSP Blocks                ; 8                                          ;
+; Total HSSI RX PCSs              ; 0                                          ;
+; Total HSSI PMA RX Deserializers ; 0                                          ;
+; Total HSSI TX PCSs              ; 0                                          ;
+; Total HSSI TX Channels          ; 0                                          ;
+; Total PLLs                      ; 0                                          ;
+; Total DLLs                      ; 0                                          ;
++---------------------------------+--------------------------------------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Settings                                                                                             ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Option                                                                          ; Setting            ; Default Value      ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+; Device                                                                          ; 5CSEBA6U23I7       ;                    ;
+; Top-level entity name                                                           ; parking            ; Synthesis-parking  ;
+; Family name                                                                     ; Cyclone V          ; Cyclone IV GX      ;
+; Use smart compilation                                                           ; Off                ; Off                ;
+; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation      ; On                 ; On                 ;
+; Enable compact report table                                                     ; Off                ; Off                ;
+; Restructure Multiplexers                                                        ; Auto               ; Auto               ;
+; MLAB Add Timing Constraints For Mixed-Port Feed-Through Mode Setting Don't Care ; Off                ; Off                ;
+; Create Debugging Nodes for IP Cores                                             ; Off                ; Off                ;
+; Preserve fewer node names                                                       ; On                 ; On                 ;
+; Disable OpenCore Plus hardware evaluation                                       ; Off                ; Off                ;
+; Verilog Version                                                                 ; Verilog_2001       ; Verilog_2001       ;
+; VHDL Version                                                                    ; VHDL_1993          ; VHDL_1993          ;
+; State Machine Processing                                                        ; Auto               ; Auto               ;
+; Safe State Machine                                                              ; Off                ; Off                ;
+; Extract Verilog State Machines                                                  ; On                 ; On                 ;
+; Extract VHDL State Machines                                                     ; On                 ; On                 ;
+; Ignore Verilog initial constructs                                               ; Off                ; Off                ;
+; Iteration limit for constant Verilog loops                                      ; 5000               ; 5000               ;
+; Iteration limit for non-constant Verilog loops                                  ; 250                ; 250                ;
+; Add Pass-Through Logic to Inferred RAMs                                         ; On                 ; On                 ;
+; Infer RAMs from Raw Logic                                                       ; On                 ; On                 ;
+; Parallel Synthesis                                                              ; On                 ; On                 ;
+; DSP Block Balancing                                                             ; Auto               ; Auto               ;
+; NOT Gate Push-Back                                                              ; On                 ; On                 ;
+; Power-Up Don't Care                                                             ; On                 ; On                 ;
+; Remove Redundant Logic Cells                                                    ; Off                ; Off                ;
+; Remove Duplicate Registers                                                      ; On                 ; On                 ;
+; Ignore CARRY Buffers                                                            ; Off                ; Off                ;
+; Ignore CASCADE Buffers                                                          ; Off                ; Off                ;
+; Ignore GLOBAL Buffers                                                           ; Off                ; Off                ;
+; Ignore ROW GLOBAL Buffers                                                       ; Off                ; Off                ;
+; Ignore LCELL Buffers                                                            ; Off                ; Off                ;
+; Ignore SOFT Buffers                                                             ; On                 ; On                 ;
+; Limit AHDL Integers to 32 Bits                                                  ; Off                ; Off                ;
+; Optimization Technique                                                          ; Balanced           ; Balanced           ;
+; Carry Chain Length                                                              ; 70                 ; 70                 ;
+; Auto Carry Chains                                                               ; On                 ; On                 ;
+; Auto Open-Drain Pins                                                            ; On                 ; On                 ;
+; Perform WYSIWYG Primitive Resynthesis                                           ; Off                ; Off                ;
+; Auto ROM Replacement                                                            ; On                 ; On                 ;
+; Auto RAM Replacement                                                            ; On                 ; On                 ;
+; Auto DSP Block Replacement                                                      ; On                 ; On                 ;
+; Auto Shift Register Replacement                                                 ; Auto               ; Auto               ;
+; Allow Shift Register Merging across Hierarchies                                 ; Auto               ; Auto               ;
+; Auto Clock Enable Replacement                                                   ; On                 ; On                 ;
+; Strict RAM Replacement                                                          ; Off                ; Off                ;
+; Allow Synchronous Control Signals                                               ; On                 ; On                 ;
+; Force Use of Synchronous Clear Signals                                          ; Off                ; Off                ;
+; Auto Resource Sharing                                                           ; Off                ; Off                ;
+; Allow Any RAM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any ROM Size For Recognition                                              ; Off                ; Off                ;
+; Allow Any Shift Register Size For Recognition                                   ; Off                ; Off                ;
+; Use LogicLock Constraints during Resource Balancing                             ; On                 ; On                 ;
+; Ignore translate_off and synthesis_off directives                               ; Off                ; Off                ;
+; Timing-Driven Synthesis                                                         ; On                 ; On                 ;
+; Report Parameter Settings                                                       ; On                 ; On                 ;
+; Report Source Assignments                                                       ; On                 ; On                 ;
+; Report Connectivity Checks                                                      ; On                 ; On                 ;
+; Ignore Maximum Fan-Out Assignments                                              ; Off                ; Off                ;
+; Synchronization Register Chain Length                                           ; 3                  ; 3                  ;
+; PowerPlay Power Optimization                                                    ; Normal compilation ; Normal compilation ;
+; HDL message level                                                               ; Level2             ; Level2             ;
+; Suppress Register Optimization Related Messages                                 ; Off                ; Off                ;
+; Number of Removed Registers Reported in Synthesis Report                        ; 5000               ; 5000               ;
+; Number of Swept Nodes Reported in Synthesis Report                              ; 5000               ; 5000               ;
+; Number of Inverted Registers Reported in Synthesis Report                       ; 100                ; 100                ;
+; Clock MUX Protection                                                            ; On                 ; On                 ;
+; Auto Gated Clock Conversion                                                     ; Off                ; Off                ;
+; Block Design Naming                                                             ; Auto               ; Auto               ;
+; SDC constraint protection                                                       ; Off                ; Off                ;
+; Synthesis Effort                                                                ; Auto               ; Auto               ;
+; Shift Register Replacement - Allow Asynchronous Clear Signal                    ; On                 ; On                 ;
+; Pre-Mapping Resynthesis Optimization                                            ; Off                ; Off                ;
+; Analysis & Synthesis Message Level                                              ; Medium             ; Medium             ;
+; Disable Register Merging Across Hierarchies                                     ; Auto               ; Auto               ;
+; Resource Aware Inference For Block RAM                                          ; On                 ; On                 ;
+; Synthesis Seed                                                                  ; 1                  ; 1                  ;
+; Automatic Parallel Synthesis                                                    ; On                 ; On                 ;
++---------------------------------------------------------------------------------+--------------------+--------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 3           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-3         ; < 0.1%      ;
+;     Processors 4-8         ;   0.0%      ;
++----------------------------+-------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                  ; Library ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------+---------+
+; parking.v                        ; yes             ; User Verilog HDL File  ; C:/Users/mehra/Desktop/DSD-Q8-Parking/Quartus/parking.v       ;         ;
+; clock_counter.v                  ; yes             ; User Verilog HDL File  ; C:/Users/mehra/Desktop/DSD-Q8-Parking/Quartus/clock_counter.v ;         ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------+---------+
+
+
++-----------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                     ;
++---------------------------------------------+-------------------+
+; Resource                                    ; Usage             ;
++---------------------------------------------+-------------------+
+; Estimate of Logic utilization (ALMs needed) ; 414               ;
+;                                             ;                   ;
+; Combinational ALUT usage for logic          ; 644               ;
+;     -- 7 input functions                    ; 1                 ;
+;     -- 6 input functions                    ; 164               ;
+;     -- 5 input functions                    ; 83                ;
+;     -- 4 input functions                    ; 98                ;
+;     -- <=3 input functions                  ; 298               ;
+;                                             ;                   ;
+; Dedicated logic registers                   ; 38                ;
+;                                             ;                   ;
+; I/O pins                                    ; 72                ;
+; Total DSP Blocks                            ; 8                 ;
+; Maximum fan-out node                        ; uni_parked_cars~0 ;
+; Maximum fan-out                             ; 92                ;
+; Total fan-out                               ; 2862              ;
+; Average fan-out                             ; 3.43              ;
++---------------------------------------------+-------------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                              ;
++----------------------------------+-------------------+--------------+-------------------+------------+------+--------------+--------------------------------------+--------------+
+; Compilation Hierarchy Node       ; LC Combinationals ; LC Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                  ; Library Name ;
++----------------------------------+-------------------+--------------+-------------------+------------+------+--------------+--------------------------------------+--------------+
+; |parking                         ; 644 (598)         ; 38 (0)       ; 0                 ; 8          ; 72   ; 0            ; |parking                             ; work         ;
+;    |clock_counter:clock_counter| ; 46 (46)           ; 38 (38)      ; 0                 ; 0          ; 0    ; 0            ; |parking|clock_counter:clock_counter ; work         ;
++----------------------------------+-------------------+--------------+-------------------+------------+------+--------------+--------------------------------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++-----------------------------------------------------------------------------+
+; Analysis & Synthesis DSP Block Usage Summary                                ;
++---------------------+-------------+---------------------+-------------------+
+; Statistic           ; Number Used ; Available per Block ; Maximum Available ;
++---------------------+-------------+---------------------+-------------------+
+; Independent 18x18   ; 8           ; 2.00                ; --                ;
+; DSP Block           ; 8           ; --                  ; --                ;
+; DSP 18-bit Element  ; 8           ; 2.00                ; --                ;
+; Unsigned Multiplier ; 8           ; --                  ; --                ;
++---------------------+-------------+---------------------+-------------------+
+
+
++-----------------------------------------------------------------------------------------------------+
+; User-Specified and Inferred Latches                                                                 ;
++-----------------------------------------------------+----------------------+------------------------+
+; Latch Name                                          ; Latch Enable Signal  ; Free of Timing Hazards ;
++-----------------------------------------------------+----------------------+------------------------+
+; uni_parked_cars[0]$latch                            ; uni_parked_cars[9]   ; yes                    ;
+; uni_parked_cars[1]$latch                            ; uni_parked_cars[9]   ; yes                    ;
+; uni_parked_cars[2]$latch                            ; uni_parked_cars[9]   ; yes                    ;
+; uni_parked_cars[3]$latch                            ; uni_parked_cars[9]   ; yes                    ;
+; uni_parked_cars[4]$latch                            ; uni_parked_cars[9]   ; yes                    ;
+; uni_parked_cars[5]$latch                            ; uni_parked_cars[9]   ; yes                    ;
+; uni_parked_cars[6]$latch                            ; uni_parked_cars[9]   ; yes                    ;
+; uni_parked_cars[7]$latch                            ; uni_parked_cars[9]   ; yes                    ;
+; uni_parked_cars[8]$latch                            ; uni_parked_cars[9]   ; yes                    ;
+; uni_parked_cars[9]$latch                            ; uni_parked_cars[9]   ; yes                    ;
+; parked_cars[0]$latch                                ; parked_cars[9]       ; yes                    ;
+; parked_cars[1]$latch                                ; parked_cars[9]       ; yes                    ;
+; parked_cars[2]$latch                                ; parked_cars[9]       ; yes                    ;
+; parked_cars[3]$latch                                ; parked_cars[9]       ; yes                    ;
+; parked_cars[4]$latch                                ; parked_cars[9]       ; yes                    ;
+; parked_cars[5]$latch                                ; parked_cars[9]       ; yes                    ;
+; parked_cars[6]$latch                                ; parked_cars[9]       ; yes                    ;
+; parked_cars[7]$latch                                ; parked_cars[9]       ; yes                    ;
+; parked_cars[8]$latch                                ; parked_cars[9]       ; yes                    ;
+; parked_cars[9]$latch                                ; parked_cars[9]       ; yes                    ;
+; uni_vacated_space[0]$latch                          ; uni_vacated_space[9] ; yes                    ;
+; uni_vacated_space[1]$latch                          ; uni_vacated_space[9] ; yes                    ;
+; uni_vacated_space[2]$latch                          ; uni_vacated_space[9] ; yes                    ;
+; uni_vacated_space[3]$latch                          ; uni_vacated_space[9] ; yes                    ;
+; uni_vacated_space[4]$latch                          ; uni_vacated_space[9] ; yes                    ;
+; uni_vacated_space[5]$latch                          ; uni_vacated_space[9] ; yes                    ;
+; uni_vacated_space[6]$latch                          ; uni_vacated_space[9] ; yes                    ;
+; uni_vacated_space[7]$latch                          ; uni_vacated_space[9] ; yes                    ;
+; uni_vacated_space[8]$latch                          ; uni_vacated_space[9] ; yes                    ;
+; uni_vacated_space[9]$latch                          ; uni_vacated_space[9] ; yes                    ;
+; vacated_space[0]$latch                              ; vacated_space[9]     ; yes                    ;
+; vacated_space[1]$latch                              ; vacated_space[9]     ; yes                    ;
+; vacated_space[2]$latch                              ; vacated_space[9]     ; yes                    ;
+; vacated_space[3]$latch                              ; vacated_space[9]     ; yes                    ;
+; vacated_space[4]$latch                              ; vacated_space[9]     ; yes                    ;
+; vacated_space[5]$latch                              ; vacated_space[9]     ; yes                    ;
+; vacated_space[6]$latch                              ; vacated_space[9]     ; yes                    ;
+; vacated_space[7]$latch                              ; vacated_space[9]     ; yes                    ;
+; vacated_space[8]$latch                              ; vacated_space[9]     ; yes                    ;
+; vacated_space[9]$latch                              ; vacated_space[9]     ; yes                    ;
+; no_car_error$latch                                  ; no_car_error         ; yes                    ;
+; uni_capacity_error$latch                            ; uni_capacity_error   ; yes                    ;
+; capacity_error$latch                                ; capacity_error       ; yes                    ;
+; Number of user-specified and inferred latches = 43  ;                      ;                        ;
++-----------------------------------------------------+----------------------+------------------------+
+Note: All latches listed above may not be present at the end of synthesis due to various synthesis optimizations.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 38    ;
+; Number of registers using Synchronous Clear  ; 7     ;
+; Number of registers using Synchronous Load   ; 26    ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 24    ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                          ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------+
+; 3:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; Yes        ; |parking|clock_counter:clock_counter|h[0] ;
+; 3:1                ; 7 bits    ; 14 LEs        ; 14 LEs               ; 0 LEs                  ; Yes        ; |parking|clock_counter:clock_counter|m[6] ;
+; 3:1                ; 10 bits   ; 20 LEs        ; 10 LEs               ; 10 LEs                 ; No         ; |parking|uni_parked_cars                  ;
+; 3:1                ; 10 bits   ; 20 LEs        ; 10 LEs               ; 10 LEs                 ; No         ; |parking|parked_cars                      ;
+; 4:1                ; 10 bits   ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; No         ; |parking|uni_parked_cars                  ;
+; 6:1                ; 10 bits   ; 40 LEs        ; 20 LEs               ; 20 LEs                 ; No         ; |parking|uni_parked_cars[0]               ;
+; 5:1                ; 10 bits   ; 30 LEs        ; 20 LEs               ; 10 LEs                 ; No         ; |parking|parked_cars                      ;
+; 6:1                ; 10 bits   ; 40 LEs        ; 20 LEs               ; 20 LEs                 ; No         ; |parking|parked_cars[0]                   ;
+; 6:1                ; 20 bits   ; 80 LEs        ; 40 LEs               ; 40 LEs                 ; No         ; |parking|uni_vacated_space                ;
+; 10:1               ; 10 bits   ; 60 LEs        ; 60 LEs               ; 0 LEs                  ; No         ; |parking|uni_vacated_space[1]             ;
+; 10:1               ; 10 bits   ; 60 LEs        ; 60 LEs               ; 0 LEs                  ; No         ; |parking|vacated_space[8]                 ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------+
+
+
++-------------------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: Top-level Entity: |parking ;
++--------------------+-------+--------------------------------------------+
+; Parameter Name     ; Value ; Type                                       ;
++--------------------+-------+--------------------------------------------+
+; MAX_UNI_CAPACITY   ; 500   ; Signed Integer                             ;
+; MAX_OTHER_CAPACITY ; 200   ; Signed Integer                             ;
+; rate               ; 50    ; Signed Integer                             ;
++--------------------+-------+--------------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:01     ;
++----------------+--------------+
+
+
++-------------------------------+
+; Analysis & Synthesis Messages ;
++-------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit Analysis & Synthesis
+    Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+    Info: Processing started: Tue Jun 25 14:25:27 2024
+Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Synthesis-parking -c Synthesis-parking
+Info (11104): Parallel Compilation has detected 8 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 4 of the 4 physical processors detected instead.
+Info (12021): Found 1 design units, including 1 entities, in source file parking.v
+    Info (12023): Found entity 1: parking
+Info (12021): Found 1 design units, including 1 entities, in source file clock_counter.v
+    Info (12023): Found entity 1: clock_counter
+Info (12127): Elaborating entity "parking" for the top level hierarchy
+Warning (10230): Verilog HDL assignment warning at parking.v(18): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at parking.v(19): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at parking.v(51): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at parking.v(52): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at parking.v(60): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at parking.v(61): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at parking.v(65): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at parking.v(66): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at parking.v(69): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at parking.v(70): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at parking.v(81): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at parking.v(82): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at parking.v(95): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at parking.v(105): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at parking.v(115): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at parking.v(116): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at parking.v(126): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at parking.v(127): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at parking.v(135): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at parking.v(136): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at parking.v(140): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at parking.v(144): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at parking.v(157): truncated value with size 32 to match size of target (10)
+Warning (10230): Verilog HDL assignment warning at parking.v(158): truncated value with size 32 to match size of target (10)
+Warning (10240): Verilog HDL Always Construct warning at parking.v(38): inferring latch(es) for variable "uni_vacated_space", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at parking.v(38): inferring latch(es) for variable "vacated_space", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at parking.v(38): inferring latch(es) for variable "uni_capacity_error", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at parking.v(38): inferring latch(es) for variable "uni_parked_cars", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at parking.v(38): inferring latch(es) for variable "parked_cars", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at parking.v(38): inferring latch(es) for variable "no_car_error", which holds its previous value in one or more paths through the always construct
+Warning (10240): Verilog HDL Always Construct warning at parking.v(38): inferring latch(es) for variable "capacity_error", which holds its previous value in one or more paths through the always construct
+Info (10041): Inferred latch for "uni_capacity_error" at parking.v(88)
+Info (10041): Inferred latch for "vacated_space[0]" at parking.v(88)
+Info (10041): Inferred latch for "vacated_space[1]" at parking.v(88)
+Info (10041): Inferred latch for "vacated_space[2]" at parking.v(88)
+Info (10041): Inferred latch for "vacated_space[3]" at parking.v(88)
+Info (10041): Inferred latch for "vacated_space[4]" at parking.v(88)
+Info (10041): Inferred latch for "vacated_space[5]" at parking.v(88)
+Info (10041): Inferred latch for "vacated_space[6]" at parking.v(88)
+Info (10041): Inferred latch for "vacated_space[7]" at parking.v(88)
+Info (10041): Inferred latch for "vacated_space[8]" at parking.v(88)
+Info (10041): Inferred latch for "vacated_space[9]" at parking.v(88)
+Info (10041): Inferred latch for "uni_vacated_space[0]" at parking.v(88)
+Info (10041): Inferred latch for "uni_vacated_space[1]" at parking.v(88)
+Info (10041): Inferred latch for "uni_vacated_space[2]" at parking.v(88)
+Info (10041): Inferred latch for "uni_vacated_space[3]" at parking.v(88)
+Info (10041): Inferred latch for "uni_vacated_space[4]" at parking.v(88)
+Info (10041): Inferred latch for "uni_vacated_space[5]" at parking.v(88)
+Info (10041): Inferred latch for "uni_vacated_space[6]" at parking.v(88)
+Info (10041): Inferred latch for "uni_vacated_space[7]" at parking.v(88)
+Info (10041): Inferred latch for "uni_vacated_space[8]" at parking.v(88)
+Info (10041): Inferred latch for "uni_vacated_space[9]" at parking.v(88)
+Info (10041): Inferred latch for "capacity_error" at parking.v(88)
+Info (10041): Inferred latch for "parked_cars[0]" at parking.v(88)
+Info (10041): Inferred latch for "parked_cars[1]" at parking.v(88)
+Info (10041): Inferred latch for "parked_cars[2]" at parking.v(88)
+Info (10041): Inferred latch for "parked_cars[3]" at parking.v(88)
+Info (10041): Inferred latch for "parked_cars[4]" at parking.v(88)
+Info (10041): Inferred latch for "parked_cars[5]" at parking.v(88)
+Info (10041): Inferred latch for "parked_cars[6]" at parking.v(88)
+Info (10041): Inferred latch for "parked_cars[7]" at parking.v(88)
+Info (10041): Inferred latch for "parked_cars[8]" at parking.v(88)
+Info (10041): Inferred latch for "parked_cars[9]" at parking.v(88)
+Info (10041): Inferred latch for "uni_parked_cars[0]" at parking.v(88)
+Info (10041): Inferred latch for "uni_parked_cars[1]" at parking.v(88)
+Info (10041): Inferred latch for "uni_parked_cars[2]" at parking.v(88)
+Info (10041): Inferred latch for "uni_parked_cars[3]" at parking.v(88)
+Info (10041): Inferred latch for "uni_parked_cars[4]" at parking.v(88)
+Info (10041): Inferred latch for "uni_parked_cars[5]" at parking.v(88)
+Info (10041): Inferred latch for "uni_parked_cars[6]" at parking.v(88)
+Info (10041): Inferred latch for "uni_parked_cars[7]" at parking.v(88)
+Info (10041): Inferred latch for "uni_parked_cars[8]" at parking.v(88)
+Info (10041): Inferred latch for "uni_parked_cars[9]" at parking.v(88)
+Info (10041): Inferred latch for "no_car_error" at parking.v(88)
+Info (12128): Elaborating entity "clock_counter" for hierarchy "clock_counter:clock_counter"
+Warning (10230): Verilog HDL assignment warning at clock_counter.v(26): truncated value with size 32 to match size of target (7)
+Warning (10230): Verilog HDL assignment warning at clock_counter.v(29): truncated value with size 32 to match size of target (5)
+Warning (10230): Verilog HDL assignment warning at clock_counter.v(33): truncated value with size 32 to match size of target (7)
+Warning (10230): Verilog HDL assignment warning at clock_counter.v(36): truncated value with size 32 to match size of target (5)
+Warning (10230): Verilog HDL assignment warning at clock_counter.v(37): truncated value with size 32 to match size of target (7)
+Warning (10230): Verilog HDL assignment warning at clock_counter.v(38): truncated value with size 32 to match size of target (7)
+Warning (13046): Tri-state node(s) do not directly drive top-level pin(s)
+    Warning (13047): Converted the fan-out from the tri-state buffer "clock_counter:clock_counter|hour[0]" to the node "Mult5" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "clock_counter:clock_counter|hour[1]" to the node "Mult5" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "clock_counter:clock_counter|hour[2]" to the node "Mult1" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "clock_counter:clock_counter|hour[3]" to the node "Add3" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "clock_counter:clock_counter|hour[4]" to the node "Add3" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "clock_counter:clock_counter|minute[0]" to the node "clock_counter:clock_counter|Equal0" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "clock_counter:clock_counter|minute[1]" to the node "clock_counter:clock_counter|Equal0" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "clock_counter:clock_counter|minute[2]" to the node "clock_counter:clock_counter|Equal0" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "clock_counter:clock_counter|minute[3]" to the node "clock_counter:clock_counter|Equal0" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "clock_counter:clock_counter|minute[4]" to the node "clock_counter:clock_counter|Equal0" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "clock_counter:clock_counter|minute[5]" to the node "clock_counter:clock_counter|Equal0" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "clock_counter:clock_counter|minute[6]" to the node "clock_counter:clock_counter|Equal0" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "clock_counter:clock_counter|day[0]" to the node "clock_counter:clock_counter|Add0" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "clock_counter:clock_counter|day[1]" to the node "clock_counter:clock_counter|Add0" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "clock_counter:clock_counter|day[2]" to the node "clock_counter:clock_counter|Add0" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "clock_counter:clock_counter|day[3]" to the node "clock_counter:clock_counter|Add0" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "clock_counter:clock_counter|day[4]" to the node "clock_counter:clock_counter|Add0" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "clock_counter:clock_counter|day[5]" to the node "clock_counter:clock_counter|Add0" into an OR gate
+    Warning (13047): Converted the fan-out from the tri-state buffer "clock_counter:clock_counter|day[6]" to the node "clock_counter:clock_counter|Add0" into an OR gate
+Warning (13012): Latch uni_parked_cars[0]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch uni_parked_cars[1]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch uni_parked_cars[2]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch uni_parked_cars[3]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch uni_parked_cars[4]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch uni_parked_cars[5]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch uni_parked_cars[6]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch uni_parked_cars[7]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch uni_parked_cars[8]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch uni_parked_cars[9]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch parked_cars[0]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch parked_cars[1]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch parked_cars[2]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch parked_cars[3]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch parked_cars[4]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch parked_cars[5]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch parked_cars[6]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch parked_cars[7]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch parked_cars[8]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch parked_cars[9]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch uni_vacated_space[0]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch uni_vacated_space[1]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch uni_vacated_space[2]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch uni_vacated_space[3]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch uni_vacated_space[4]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch uni_vacated_space[5]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch uni_vacated_space[6]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch uni_vacated_space[7]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch uni_vacated_space[8]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch uni_vacated_space[9]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch vacated_space[0]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch vacated_space[1]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch vacated_space[2]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch vacated_space[3]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch vacated_space[4]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch vacated_space[5]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch vacated_space[6]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch vacated_space[7]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch vacated_space[8]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch vacated_space[9]$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch no_car_error$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal car_exited
+Warning (13012): Latch uni_capacity_error$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal enable
+Warning (13012): Latch capacity_error$latch has unsafe behavior
+    Warning (13013): Ports D and ENA on the latch are fed by the same signal car_exited
+Info (286030): Timing-Driven Synthesis is running
+Info (144001): Generated suppressed messages file C:/Users/mehra/Desktop/DSD-Q8-Parking/Quartus/output_files/Synthesis-parking.map.smsg
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 743 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 8 input pins
+    Info (21059): Implemented 64 output pins
+    Info (21061): Implemented 663 logic cells
+    Info (21062): Implemented 8 DSP elements
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 143 warnings
+    Info: Peak virtual memory: 4704 megabytes
+    Info: Processing ended: Tue Jun 25 14:25:29 2024
+    Info: Elapsed time: 00:00:02
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in C:/Users/mehra/Desktop/DSD-Q8-Parking/Quartus/output_files/Synthesis-parking.map.smsg.
+
+
